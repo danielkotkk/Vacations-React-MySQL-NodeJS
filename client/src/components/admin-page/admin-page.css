@@ -1,0 +1,148 @@
+.adminPage {
+    height: 100%;
+}
+
+h1 {
+    font-family: fantasy;
+}
+
+h5 {
+    margin: 0px;
+    font-size: 1.4em;
+    font-weight: 700;
+    color: black;
+    text-align: center;
+    margin-bottom: 3%;
+    font-family: titleFont;
+}
+
+p {
+    word-wrap: break-word;
+    overflow: auto;
+    font-size: 12px;
+    height: 60%;
+    font-family: bodyFont;
+}
+
+.chartBtn {
+    margin-left: 20px;
+}
+
+/* End Non-Essential  */
+
+.property-card {
+    height: 30rem;
+    width: 15rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    position: relative;
+    -webkit-transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+    -o-transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+    border-radius: 16px;
+    overflow: hidden;
+    -webkit-box-shadow: 15px 15px 27px #e1e1e3, -15px -15px 27px #ffffff;
+    box-shadow: 15px 15px 27px #e1e1e3, -15px -15px 27px #ffffff;
+    margin-bottom: 5%;
+    margin: 2% auto;
+}
+
+.property-image {
+    height: 8rem;
+    width: 15rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    -webkit-transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+    -o-transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+/* Bottom Card Section */
+
+.property-description {
+    background-color: #FAFAFC;
+    height: 22.5em;
+    width: 15em;
+    position: absolute;
+    top: 26%;
+    -webkit-transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+    -o-transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+    padding: 0.5em 1em;
+    text-align: left;
+}
+
+.dates {
+    position: relative;
+    bottom: 6%;
+}
+
+.adminModalAndChartBtn {
+    display: inline-block;
+    font-weight: bold;
+    color: #212529;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: .20rem .30rem;
+    font-size: 0.9rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    color: #fff;
+    box-shadow: 2px 2px 3px 3px black;
+    background-color: black;
+    border-color: black;
+    font-family: bodyFont;
+}
+
+.adminModalAndChartBtn:hover {
+    text-decoration-style: none!important;
+    text-decoration-color: rgb(15, 123, 247);
+    color: rgb(15, 123, 247);
+}
+
+.deleteBtn {
+    background: transparent;
+    border: transparent;
+    position: absolute;
+    font-size: large;
+    right: 3%;
+    top: 3%;
+    outline: transparent !important;
+}
+
+.vacationDetails {
+    font-family: bodyFont;
+    width: 102%;
+}
+
+.topDiv {
+    text-align: left;
+}
+
+.titleHr {
+    position: relative;
+    border: 0;
+    height: 0;
+    box-shadow: 0 0 10px 1px black;
+    width: 450px;
+}
+
+.adminPageButtonsDiv {
+    margin: 2% 0;
+}
+
+.vacationDescription {
+    font-family: titleFont;
+}
+
+.row {
+    margin-top: 4%;
+}
+

@@ -1,0 +1,15 @@
+{
+    "isProduction": false,
+    "isDevelopment": true,
+    "mysql": {
+        "host": "localhost",
+        "user": "root",
+        "password": "",
+        "database": "vacations"
+    },
+    "jwt": {
+        "secretKey": "vacations11",
+        "adminSecretKey": "adminadmin12"
+    },
+    "serverUrl": "http://localhost:3001"
+}

@@ -1,0 +1,139 @@
+html, body, #root {
+    height: 100%;
+    text-align: center;
+    background-image: url("/background/background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-size: x-large;
+    background-position: center;
+}
+
+@font-face {
+    font-family: titleFont;
+    src: url("/fonts/Galada-Regular.ttf");
+}
+
+@font-face {
+    font-family: bodyFont;
+    src: url("/assets/fonts/RobotoMono-Italic-VariableFont_wght.ttf");
+}
+.logoutBtn {
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+    padding-left: 2vh;
+    padding-top: 2%;
+    background: transparent;
+    border: transparent;
+    text-align: left;
+}
+
+.exitLabel {
+    font-size: 0.7vw;
+}
+
+.d-inline-block {
+    display: inline-block;
+}
+
+.showUser {
+    position: relative;
+    text-align: left;
+    padding: 1%;
+    letter-spacing: 0.1rem;
+    display: inline-block;
+    font-size: x-large;
+    font-family: titleFont;
+    color: white;
+    -webkit-animation: reveal 3000ms ease-in-out forwards 1000ms, glow 5000ms linear infinite 1000ms;
+    animation: reveal 3000ms ease-in-out forwards 1000ms, glow 5000ms linear infinite 1000ms;
+}
+
+@-webkit-keyframes reveal {
+    80% {
+        letter-spacing: 8px;
+    }
+    100% {
+        background-size: 300% 300%;
+    }
+}
+
+@keyframes reveal {
+    80% {
+        letter-spacing: 8px;
+    }
+    100% {
+        background-size: 300% 300%;
+    }
+}
+
+@-webkit-keyframes glow {
+    40% {
+        text-shadow: 0 0 8px #fff;
+    }
+}
+
+@keyframes glow {
+    40% {
+        text-shadow: 0 0 8px #fff;
+    }
+}
+
+.vacationPrice {
+    font-size: x-large;
+    margin-top: 1%;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+.pageTitle {
+    background-image: url(https://media.giphy.com/media/26BROrSHlmyzzHf3i/giphy.gif);
+    background-size: cover;
+    color: transparent;
+    background-clip: text;
+    text-transform: uppercase;
+    line-height: .75;
+    margin: 0;
+    padding-top: 1%;
+}
+
+button {
+    cursor: pointer;
+    outline: none;
+}
+
+.swal2-title {
+    font-size: x-large!important;
+}
+
+/* .aboutLink {
+    float: right;
+    margin: 2% 1%;
+    color: white;
+    font-family: bodyFont;
+    font-size: x-large;
+}
+
+.aboutLink:hover {
+    color: gray;
+} */
+
+.aboutLink {
+    float: right;
+    margin: 2% 1%;
+    border: none;
+    font-family: bodyFont;
+    font-size: x-large;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    margin: 4px 2px;
+    opacity: 1;
+    transition: 0.3s;
+}
+
+.aboutLink:hover {
+    opacity: 2;
+    color: gainsboro;
+    text-decoration: none;
+}

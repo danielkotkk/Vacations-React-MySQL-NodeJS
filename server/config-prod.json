@@ -1,0 +1,15 @@
+{
+    "isProduction": true,
+    "isDevelopment": false,
+    "mysql": {
+        "host": "eu-cdbr-west-03.cleardb.net",
+        "user": "bb73f892a9af4c",
+        "password": "b748223b",
+        "database": "heroku_aef9e25f7434152"
+    },
+    "jwt": {
+        "secretKey": "vacations11",
+        "adminSecretKey": "adminadmin12"
+    },
+    "serverUrl": "https://daniel-vacations.herokuapp.com"
+}

@@ -1,0 +1,122 @@
+.vacations {
+    height: 100%;
+}
+
+h1 {
+    font-family: fantasy;
+    color: white;
+}
+
+h5 {
+    margin: 0px;
+    font-size: 1.4em;
+    font-weight: 700;
+    color: black;
+    text-align: center;
+    margin-bottom: 3%;
+    font-family: titleFont;
+}
+
+p {
+    word-wrap: break-word;
+    overflow: auto;
+    font-size: 12px;
+    height: 60%;
+    font-family: bodyFont;
+}
+
+/* End Non-Essential  */
+
+.property-card {
+    height: 30rem;
+    width: 15rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    position: relative;
+    -webkit-transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+    -o-transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+    border-radius: 16px;
+    overflow: hidden;
+    -webkit-box-shadow: 15px 15px 27px #e1e1e3, -15px -15px 27px #ffffff;
+    box-shadow: 15px 15px 27px #e1e1e3, -15px -15px 27px #ffffff;
+    margin-bottom: 5%;
+    margin: 2% auto;
+}
+
+/* ^-- The margin bottom is necessary for the drop shadow otherwise it gets clipped in certain cases. */
+
+/* Top Half of card, image. */
+
+.property-image {
+    height: 8rem;
+    width: 15rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    -webkit-transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+    -o-transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+/* Bottom Card Section */
+
+.property-description {
+    background-color: #FAFAFC;
+    height: 22.5em;
+    width: 15em;
+    position: absolute;
+    top: 26%;
+    -webkit-transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+    -o-transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+    padding: 0.5em 1em;
+    text-align: left;
+}
+
+.numOfFollowers {
+    font-size: small;
+    position: absolute;
+    right: 5%;
+    bottom: 5%;
+}
+
+.dates {
+    position: relative;
+    bottom: 6%;
+}
+
+.followBtn {
+    position: absolute;
+    bottom: 0;
+    width: 50%;
+    padding-top: 2%;
+    border: 3px solid cornflowerblue;
+    border-radius: 6%;
+    left: 25%;
+    background-color: cornflowerblue;
+    color: black;
+    font-size: x-large;
+    margin-bottom: 3%;
+    font-family: titleFont;
+}
+
+.vacationUserPrice {
+    font-size: x-large;
+    margin-top: 4%;
+}
+
+@font-face {
+    font-family: titleFont;
+    src: url("./fonts/Galada-Regular.ttf");
+}
+
+@font-face {
+    font-family: bodyFont;
+    src: url("./fonts/RobotoMono-Italic-VariableFont_wght.ttf");
+}

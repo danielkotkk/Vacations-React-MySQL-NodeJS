@@ -1,0 +1,102 @@
+.editBtn {
+    background: transparent;
+    border: transparent;
+    position: absolute;
+    left: 3%;
+    top: 3%;
+    outline: transparent !important;
+}
+
+.editBtn>.MuiSvgIcon-root {
+    font-size: 1rem;
+}
+
+.modalLabels {
+    position: absolute;
+    left: 0;
+}
+
+.makeStyles-paper-1 {
+    padding: 1% 0 !important;
+}
+
+#simple-modal-title {
+    text-align: center;
+}
+
+.modalLabels {
+    margin-left: 10%;
+    margin-top: 1%;
+    font-family: titleFont;
+    font-size: large;
+}
+
+.modalTitle {
+    color: rgb(155, 167, 175);
+    font-weight: 500;
+    font-size: xx-large;
+    font-family: titleFont;
+}
+
+.modalInputs {
+    width: 50%;
+    margin-left: 20%;
+}
+
+.modalBtn {
+    display: inline-block;
+    font-weight: 400;
+    color: #212529;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: .20rem .30rem;
+    font-size: 0.9rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    /* color: #fff; */
+    background-color: rgb(155, 167, 175);
+    border-color: rgb(155, 167, 175);
+    font-family: titleFont;
+    width: 22%;
+}
+
+input, textarea {
+    padding: .2rem .3rem;
+    font-size: 0.6rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.modalTextArea {
+    resize: none;
+}
+
+.modalFooter {
+    margin-top: 15%;
+}
+
+.modalBackBtn {
+    position: absolute;
+    left: 25%;
+    bottom: 3%;
+}
+
+.modalConfirmBtn {
+    position: absolute;
+    right: 25%;
+    bottom: 3%;
+}
